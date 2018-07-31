@@ -1,0 +1,62 @@
+page-patient-mydoctors {
+    .rows img {
+        max-width: 100%;
+        border: 0;
+        width: 8px;
+    }
+    
+    a {
+        color: red;
+        font-size: 12px;
+    }
+    .left{
+        text-align: left;
+        cursor: pointer;
+    }
+    .right{
+        text-align: right;
+        cursor: pointer;
+    }
+    .row h2{
+        margin-top: 6px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .row p{
+        font-size: 10px;
+        margin-top: 0px;    
+    }
+    .row{
+        margin-top: 3%;
+    }
+    .colors{
+        background:  #d60403
+    }
+    .footer-md::before{
+        top: -2px;
+        bottom: auto;
+        background-position: left 0 top 0;
+        height: 0px;
+    }
+    .bottom{
+        margin: 0px;
+        padding: 0px 0;
+    }
+    .bottom a {
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        display: block;
+        padding: 8px 0;
+        margin: 0px;  
+    }
+     .bottom a img {
+        margin-right: 4px;
+        margin-left: 10px;
+        width: 8%;
+        margin-top: 0%;
+    }
+    .bor-right{
+    border-right: 0.1px solid #FFF;
+    }
+}

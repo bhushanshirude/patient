@@ -1,0 +1,138 @@
+page-patient-profile-own {
+
+		.toolbar-title-md {
+			padding: 0 12px;
+			font-size: 2rem;
+			font-weight: 500;
+			color: whitesmoke;
+	}
+		a {
+			color: #808388;
+			font-size: 13px;
+			margin-left: 10px;
+		}
+    .border-right{
+		margin-top: 0px;
+		border-right: 0px solid #000000;
+	  }
+	  .border-bottom{
+		border-bottom: 0.3px solid #000000;
+	  }
+  
+	  h2 {
+		// margin-top: 10px;
+		font-size: 13px;
+		font-weight: 450;
+		}
+	h3{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-weight: 500;
+		line-height: 1.2;
+		}
+	.border-bottom p{
+		font-size: 13px;
+		margin-top: -5px;
+		}
+	
+	.item-md.item-block .item-inner {
+		padding-right: 8px;
+    border-bottom: 0px solid #dedede; 
+}
+.button-add{
+	margin: 10% 20% 10px 20%;
+	height: 36px;
+	width: 170px;
+	color:#fff;
+	font-size: 12px;
+	border-radius: 60px !important;
+	background: #d60403;
+	background: -moz-linear-gradient(left, #b82827 0%, #d60403 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #b82827), color-stop(100%, #d60403));
+	background: -webkit-linear-gradient(left, #b82827 0%, #d60403 100%);
+	background: -o-linear-gradient(left, #b82827 0%, #d60403 100%);
+	background: -ms-linear-gradient(left, #b82827 0%, #d60403 100%);
+	background: linear-gradient(to right, #b82827 0%, #d60403 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a7894', endColorstr='#01bee8', GradientType=1 );
+}
+
+// .item-md ion-thumbnail img {
+// 	border-radius: 10%;
+// 	overflow: hidden;
+// 	width: 140px;
+// 	margin-left: 10%;
+// 	height: 140px;
+// 	border-color: #b82827;
+// 	border-width: 2px;
+// 	border-style: solid;
+// }
+.ones{
+	margin-left: 5%;
+}
+
+.colors{
+	background: #d60403;
+}
+.footer-md::before{
+	top: -2px;
+	bottom: auto;
+	background-position: left 0 top 0;
+	height: 0px;
+}
+.bottom{
+	margin: 0px;
+	padding: 0px 0;
+}
+.bottom a {
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	display: block;
+	padding: 8px 0;
+	margin: 0px;  
+}
+ .bottom a img {
+	margin-right: 4px;
+	margin-left: 10px;
+	width: 8%;
+	margin-top: 0%;
+}
+.bor-right{
+border-right: 0.1px solid #FFF;
+}
+.tab-right-wrap{
+	background-color: #d60403;
+	color: #fff;
+  }
+  .imges{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: block;
+}
+
+.imges .img{
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	border: 2px solid #b82827;
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+}
+.imges .img img{
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+}
+}
+
+ 
+
+
+
+    
