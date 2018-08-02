@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'reports.html',
 })
 export class ReportsPage {
-
+  [x: string]: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -23,17 +23,17 @@ export class ReportsPage {
   }
 
   swipe(event) {
-    if(event.direction === 2) {
+    if (event.direction === 2) {
       this.navCtrl.parent.select(4);
     }
-    if(event.direction === 4) {
+    if (event.direction === 4) {
       this.navCtrl.parent.select(2);
     }
   }
-  sort(){
-
+  search() {
+    this.value = 'search';
   }
-  share(){
-    
+  sea() {
+    this.value = 'search !=search';
   }
 }

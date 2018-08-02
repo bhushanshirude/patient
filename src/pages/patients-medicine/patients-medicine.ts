@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import {  NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
- 
- 
+
+
 @Component({
   selector: 'page-patients-medicine',
   templateUrl: 'patients-medicine.html',
 })
 export class PatientsMedicinePage {
-
+  [x: string]: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -16,14 +16,15 @@ export class PatientsMedicinePage {
     console.log('ionViewDidLoad PatientsMedicinePage');
   }
   swipe(event) {
-    if(event.direction === 4) {
+    if (event.direction === 4) {
       this.navCtrl.parent.select(3);
     }
   }
-  sort(){
-
+  sort() { }
+  search() {
+    this.value = 'search';
   }
-  share(){
-    
+  sea() {
+    this.value = 'search !=search';
   }
 }

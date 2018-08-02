@@ -10,16 +10,30 @@ page-patients-profile-own-tabs {
         color: #fff;
         margin-left: 0%;
     }
-     
+    .header-ios .toolbar-background-ios{ border: 0px;} 
     .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before {
         left: 0;
         bottom: -5px;
         background-position: left 0 top -2px;
-        /* position: absolute; */
+        position: absolute; 
         width: 100%;
         height: 5px;
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHBAMAAADzDtBxAAAAD1BMV…h/TXEAAAAaSURBVAjXYxCEAgY4UIICBmMogMsgFLtAAQCNSwXZKOdPxgAAAABJRU5ErkJggg==);
         background-repeat: repeat-x;
         content: "";
     }
+
+    .header-ios::after, .tabs-ios[tabsPlacement="top"] > .tabbar::after, .footer-ios::before, .tabs-ios[tabsPlacement="bottom"] > .tabbar::before {
+        left: 0;
+        bottom: 0px;
+        background-position: left 0 top -2px;
+        // position: absolute; 
+        width: 100%;
+        // height: 0px;
+        // background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHBAMAAADzDtBxAAAAD1BMV…h/TXEAAAAaSURBVAjXYxCEAgY4UIICBmMogMsgFLtAAQCNSwXZKOdPxgAAAABJRU5ErkJggg==);
+        // background-repeat: repeat-x;
+        // content: "";
+    }
+    
+    
 }

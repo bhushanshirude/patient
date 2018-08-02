@@ -1,67 +1,77 @@
 <ion-content>
-    <ion-row class="color">
-        <ion-col col-6>
-          <h2>Medicine Name</h2>
-          <p>500mg</p>
-        </ion-col>
-        <ion-col col-2>
-          <h2>1-1-1-1</h2>
-        </ion-col>
-    
-        <ion-col col-2>
-          <h2>5 days</h2>
-        </ion-col>
-        <ion-col col-1></ion-col>
-      </ion-row>
-      <hr>
-    
-      <ion-row class="color">
-        <ion-col col-6>
-          <h2>Medicine Name</h2>
-          <p>500mg</p>
-        </ion-col>
-        <ion-col col-2>
-          <h2>1-1-1-1</h2>
-        </ion-col>
-    
-        <ion-col col-2>
-          <h2>5 days</h2>
-        </ion-col>
-        <ion-col col-1></ion-col>
-      </ion-row>
-      <hr>
-    
-      <ion-row class="color">
-        <ion-col col-6>
-          <h2>Medicine Name</h2>
-          <p>500mg</p>
-        </ion-col>
-        <ion-col col-2>
-          <h2>1-1-1-1</h2>
-        </ion-col>
-    
-        <ion-col col-2>
-          <h2>5 days</h2>
-        </ion-col>
-        <ion-col col-1></ion-col>
-      </ion-row>
-      <hr>
-    
+  <ion-row *ngIf="value=='search'">
+    <ion-col col-11>
+      <ion-searchbar>
+      </ion-searchbar>
+    </ion-col>
+    <ion-col col-1 (click)="sea()">
+      <ion-icon ios="ios-close-circle" md="md-close-circle"></ion-icon>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="color">
+    <ion-col col-6>
+      <h2>Medicine Name</h2>
+      <p>500mg</p>
+    </ion-col>
+    <ion-col col-3>
+      <h2>1-1-1-1</h2>
+    </ion-col>
+
+    <ion-col col-2>
+      <h2>5 days</h2>
+    </ion-col>
+    <ion-col col-1></ion-col>
+  </ion-row>
+  <hr>
+
+  <ion-row class="color">
+    <ion-col col-6>
+      <h2>Medicine Name</h2>
+      <p>500mg</p>
+    </ion-col>
+    <ion-col col-3>
+      <h2>1-1-1-1</h2>
+    </ion-col>
+
+    <ion-col col-2>
+      <h2>5 days</h2>
+    </ion-col>
+    <ion-col col-1></ion-col>
+  </ion-row>
+  <hr>
+
+  <ion-row class="color">
+    <ion-col col-6>
+      <h2>Medicine Name</h2>
+      <p>500mg</p>
+    </ion-col>
+    <ion-col col-3>
+      <h2>1-1-1-1</h2>
+    </ion-col>
+
+    <ion-col col-2>
+      <h2>5 days</h2>
+    </ion-col>
+    <ion-col col-1></ion-col>
+  </ion-row>
+  <hr>
+
 </ion-content>
 
 
 <ion-footer>
-    <ion-row class="colors">
-      <ion-col col-6 text-center class="bottom">
-        <a class="bor-right" (click)="sort()">
-          <img src="assets/icon/sort.png" /> Sort
-        </a>
-      </ion-col>
-  
-      <ion-col col-6 text-center class="bottom">
-        <a  (click)="share()">
-          <img src="assets/icon/search.png" /> Search
-        </a>
-      </ion-col>
-    </ion-row>
-  </ion-footer>
+  <ion-row class="colors">
+    <ion-col col-6 text-center class="bottom">
+      <a class="bor-right" (click)="sort()">
+        <img src="assets/icon/sort.png" /> Sort
+      </a>
+    </ion-col>
+
+    <ion-col col-6 text-center class="bottom">
+      <a (click)="search()">
+        <img src="assets/icon/search.png" /> Search
+      </a>
+    </ion-col>
+  </ion-row>
+</ion-footer>

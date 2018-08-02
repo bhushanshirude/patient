@@ -45,11 +45,15 @@ h2 {
 .change{
   margin-top: -5%;
   font-size: 12px;
+  width: 100%;
+  text-align: center;
 }
 .changes{
   margin-top: -3%;
   font-size:10px;
   margin-left: 5%;
+  width: 100%;
+  text-align: center;
 
 }
 .mohit{
@@ -61,6 +65,7 @@ h2 {
     max-width: 100%;
     border: 0;
     width: 6%;
+    margin-right: 15px;
 }
 [col-12] {
   -webkit-box-flex: 0;
@@ -77,13 +82,21 @@ h2 {
   font-weight: 600;
   color: whitesmoke;
   pointer-events: auto;
-  // box-shadow:
+
 }
 .ios ion-nav > .ion-page > .toolbar.statusbar-padding:first-child, .ios ion-nav > .ion-page > ion-header > .toolbar.statusbar-padding:first-child, .ios ion-tab > .ion-page > .toolbar.statusbar-padding:first-child, .ios ion-tab > .ion-page > ion-header > .toolbar.statusbar-padding:first-child, .ios ion-tabs > .ion-page.tab-subpage > ion-header > .toolbar.statusbar-padding:first-child, .ios ion-menu > .menu-inner > .toolbar.statusbar-padding:first-child, .ios ion-menu > .menu-inner > ion-header > .toolbar.statusbar-padding:first-child {
 
   min-height: calc(44px + 20px);
 
 }
+
+ion-icon {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: 20px;
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 $font-family-base: "Montserrat";
 $font-family-md-base: "Montserrat";

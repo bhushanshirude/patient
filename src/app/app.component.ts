@@ -8,6 +8,7 @@ import { SupportPage } from '../pages/support/support';
 import { PatientsProfileOwnTabs } from '../pages/patients-profile-own-tabs/patients-profile-own-tabs';
 import { App } from 'ionic-angular/components/app/app';
 import { SettingPage } from '../pages/setting/setting';
+import { FindPage } from '../pages/find/find';
 
 
 export interface PageInterface {
@@ -64,11 +65,10 @@ export class MyApp {
   }
 
   supportPage() {
-    this.nav.setRoot(SupportPage);
+    // this.nav.setRoot(SupportPage);
     this.menu.close()
   }
 
-  // for logout section use this code 
   logout() {
     this.menu.close();
     this.promptAlert();
@@ -118,9 +118,13 @@ export class MyApp {
       }
     });
   }
-  
+
   Setting() {
     this.appCtrl.getRootNavs()[0].setRoot(SettingPage);
+    this.menu.close()
+  }
+  find() {
+    // this.nav.push(FindPage);
     this.menu.close()
   }
 }

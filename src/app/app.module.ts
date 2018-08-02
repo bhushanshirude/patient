@@ -21,6 +21,7 @@ import { NativePageTransitions } from '@ionic-native/native-page-transitions';
 import { AccountloginPage } from '../pages/accountlogin/accountlogin';
 import { AccountsignupPage } from '../pages/accountsignup/accountsignup';
 import { AccountforgotpasswordPage } from '../pages/accountforgotpassword/accountforgotpassword';
+import { FindPage } from '../pages/find/find';
 import { PatientsProfileOwnTabs } from '../pages/patients-profile-own-tabs/patients-profile-own-tabs';
 import { PatientProfileOwnPage } from '../pages/patient-profile-own/patient-profile-own';
 import { PatientsRecordsPage } from '../pages/patients-records/patients-records';
@@ -37,6 +38,7 @@ import { SettingPage } from '../pages/setting/setting';
     AccountsignupPage,
     AccountforgotpasswordPage,
     EmergencyPage,
+    FindPage,
     PatientsProfileOwnTabs,
     PatientMydoctorsPage,
     PatientProfileOwnPage,
@@ -74,6 +76,7 @@ import { SettingPage } from '../pages/setting/setting';
     AccountsignupPage,
     AccountforgotpasswordPage,
     EmergencyPage,
+    FindPage,
     PatientsProfileOwnTabs,
     PatientMydoctorsPage,
     PatientsMedicinePage,
