@@ -50,19 +50,24 @@ h2 {
 .border-bottom{
   border-bottom: 0.1px solid #b9b9b9;
 }
+
 .border-right{
   border-right: 0px solid #b9b9b9;
   }
+
 .ion-md-more:before {
   content: "\f1c9";
   margin-top: 12px;
 }
+
 .border-right.right-height{
 height: 70px;
 }
+
 .border-right.rights-height{
   height: 50px;
 }
+
 [col-6] {
   margin: 0px 0px 0px 0px;
   font-size: 11px;
@@ -82,21 +87,25 @@ height: 70px;
   height: 40px;
   font-weight: 500;
 }
+
 [col-4] {
   margin: 0px 0px 0px 0px;
   font-size: 11px;
   height: 40px;
   font-weight: 500;
 }
+
 .tab-right{
 background-color: #d60403;
 color: #fff;
 width: 90%;
 }
+
 .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
 border-color: #ffffff;
 opacity: 1;
 }
+
 h2 {
 margin-top: 2%;
 font-size: 14px;
@@ -105,6 +114,7 @@ margin-bottom: 2%;
 color: #808388;
 margin-left: 20px;
 }
+
 h3 {
 margin-top: 2%;
 font-size: 14px;
@@ -112,6 +122,7 @@ font-weight: 500;
 margin-bottom: 2%;
 margin-left: 0px;
 }
+
 h4 {
   font-size: 14px;
   margin-top: 2%;
@@ -128,7 +139,6 @@ padding: 15px 0px 0px 0px;
 height: 100%;
 width: 10%;
 float: right;
-
 }
 ion-segment{ width: 50%; height: 100%;;}
 
@@ -196,4 +206,67 @@ margin-top: 0%;
 .bor-right{
 border-right: 0.1px solid #FFF;
 }
+
+
+// ios css
+
+.segment-ios .segment-button p{
+  transform: rotate(90deg);
+  margin-right: 0px;
+   margin-top: 0px;
+  }
+
+ios-segment{ min-width: 100%; height: 100%;}
+
+.segment-ios {
+   display: block;
+   width: 50px;
+   flex: initial;
+   margin: 0px;
+   padding: 0px;
+   
 }
+
+
+.segment-ios .segment-button{
+   display: block;
+   width: 100%;
+   flex: initial;
+   margin: 0px;
+   padding: 30px 0 0 0;
+   background-color: #d60403;
+   height: 33.33%;
+   color:#fff;
+   font-size: 15px;
+   
+}
+
+.segment-ios .segment-button:hover:not(.segment-activated){
+  background-color: #d60403;
+}
+ .segment-ios .segment-button.segment-activated {
+  color: #fff;
+  background-color: #d60403;
+   opacity: 1; 
+  -webkit-transition: 100ms all linear;
+  transition: 100ms all linear;
+}
+.segment-ios .segment-button p{transform: rotate(90deg); padding-top: 30px;}
+.segment-ios .segment-button {
+  border-width: 2px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-color: white;
+  border-style: solid;
+  height: 30%;
+}
+
+.segment-ios {
+  position: fixed;
+ 
+ }
+
+}
+

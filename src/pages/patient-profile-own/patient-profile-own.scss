@@ -56,16 +56,6 @@ page-patient-profile-own {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a7894', endColorstr='#01bee8', GradientType=1 );
 }
 
-// .item-md ion-thumbnail img {
-// 	border-radius: 10%;
-// 	overflow: hidden;
-// 	width: 140px;
-// 	margin-left: 10%;
-// 	height: 140px;
-// 	border-color: #b82827;
-// 	border-width: 2px;
-// 	border-style: solid;
-// }
 .ones{
 	margin-left: 5%;
 }
@@ -128,6 +118,16 @@ border-right: 0.1px solid #FFF;
 	max-width: 100%;
 	width: 100%;
 	height: 100%;
+}
+
+// ios css
+
+.toolbar-title-ios {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: whitesmoke;
+    pointer-events: auto;
 }
 }
 
